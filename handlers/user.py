@@ -168,7 +168,7 @@ async def help_handler(message: Message):
         "1️⃣ Kino kodini yuboring\n"
         "2️⃣ Majburiy obunadan o'ting\n"
         "3️⃣ Tomosha qiling!\n\n"
-        "Har qanday muammo uchun admin bilan bog'laning."
+        "Har qanday muammo uchun admin bilan bog'laning. @ergashev_rizo"
     )
     await message.answer(text, reply_markup=back_btn(), parse_mode="HTML")
 
